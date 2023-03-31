@@ -4,20 +4,13 @@ import ssl
 import smtplib
 
 #variables
-email_sender = 'bracichowiczaleksandra@gmail.com'
+email_sender = 'XX@gmail.com'
 email_password = os.environ.get("EMAIL_PASSWORD")
-email_receiver = 'bracichowiczola@gmail.com'
-subject = 'TEST - MAIL Z PYTHONA'
+email_receiver = 'XXX@gmail.com'
+subject = 'TEST'
 body = """
-test
 
-
-
-test
-
-
-
-:D
+EMAIL
 
 """
 
